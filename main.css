@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+body  {
+    background-image: url('IMG/background.JPG');
+    
+    background-size: cover;
+        -webkit-animation: slidein 35s;
+        animation: slidein 35s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: center; background-size:1000px; }
+to {background-position: top;background-size:1050px;}
+}
+
+@keyframes slidein {
+from {background-position: center;background-size:1770px; }
+to {background-position: top;background-size:2010px;}
+
+}
+
+.center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(111, 123, 245, 0.2);
+  border-radius: 3px;
+}
+.center h1{
+  text-align:center;
+  color:white;
+  font-family: 'Source Code Pro', monospace;
+  text-transform:uppercase;
+  border: 3px solid white;
+  padding: 10px;
+}
+
+div.pGh{
+    width: 400px;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 3px solid rgb(235,198,153);
+    box-shadow: rgba(240,185,121, 0.4) -5px -5px, rgba(222, 184, 135, 0.3) -10px -10px, rgba(213, 183, 144, 0.2) -15px -15px,rgba(255,245,238, 0.1) -20px -20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+div.pGb{
+  width: 400px;
+  height: fit-content;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border: 3px solid rgb(235,198,153);
+  box-shadow: rgba(240,185,121, 0.4) -5px 5px, rgba(222, 184, 135, 0.3) -10px 10px, rgba(213, 183, 144, 0.2) -15px 15px,rgba(255,245,238, 0.1) -20px 20px;
+  margin: 20px;
+  padding: 10px;
+}
+
+div.pDh{
+  width: 400px;
+  height: fit-content;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: 3px solid rgb(235,198,153);
+  box-shadow: rgba(240,185,121, 0.4) 5px -5px, rgba(222, 184, 135, 0.3) 10px -10px, rgba(213, 183, 144, 0.2) 15px -15px,rgba(255,245,238, 0.1) 20px -20px;
+  margin: 20px;
+  padding: 10px;
+}
+
+div.pDb{
+  width: 400px;
+  height: fit-content;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 3px solid rgb(235,198,153);
+  box-shadow: rgba(240,185,121, 0.4) 5px 5px, rgba(222, 184, 135, 0.3) 10px 10px, rgba(213, 183, 144, 0.2) 15px 15px,rgba(255,245,238, 0.1) 20px 20px;
+  margin: 20px;
+  padding: 10px;
+}
+
+
+
+h1.title{
+    text-align:center;
+    color:white;
+    font-family: 'Vollkorn SC', serif;
+    text-decoration: underline;
+    color: rgb(235,198,153);
+    
+}
+
+p{
+    color: aliceblue;
+    font-family: 'Source Serif 4', serif;
+}
+

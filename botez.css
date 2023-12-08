@@ -1,0 +1,182 @@
+
+body, html{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 2.5%;
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ball {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 65%;
+}
+
+div.contenu{
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: fit-content;
+  height: 200px;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+div.skills{
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5%;
+  padding: 20px;
+}
+
+div.information{
+  border-left: 3px solid white;
+  width: fit-content;
+  height: fit-content;
+  padding-left: 50px;
+  margin: 30px;
+}
+
+h1.title{
+  color: aliceblue;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-align: center;
+}
+
+img.photo{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  
+}
+
+img.logo{
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+div.left{
+  float: left;
+  width: fit-content;
+}
+
+div.right{
+  margin-left: 20px;
+  color: aliceblue;
+  float: right;
+}
+
+svg {
+  width: 250px;
+  height: 250px
+}
+
+.pie {
+  width: 200px;
+  height: 200px;
+  background: conic-gradient( 
+    red 0deg, red 60deg, cyan 60deg, cyan 140deg, orange 140deg, orange 215deg, 
+    teal 215deg, teal 290deg,violet 290deg);
+  border-radius: 100%
+}
+
+span.orange{
+  color: orange;
+}
+
+span.blue{
+  color: cyan;
+}
+
+span.red{
+  color: red;
+}
+
+span.green{
+  color: teal;
+}
+
+span.violet{
+  color: violet;
+}
+
+span.gray{
+  color: gainsboro;
+}
+
+@media screen and (max-width: 1100px){
+  div.skills{
+    display: block;
+    padding: 0px;
+  }
+  .pie {
+    margin: 0 auto;
+  }
+  div.right{
+    float: none;
+    text-align: center;
+  }
+
+  body, html{
+    overflow-x: visible;
+    overflow-y: visible;
+
+  }
+  
+  div.information{
+    border-left: none;
+    border-top: 3px solid white;
+    text-align: center;
+    padding-left: 0px;
+    
+  }
+
+  footer{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 1000px){
+  body, html{
+    padding-left: 7,5%;
+    padding-right: 7,5%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  body, html{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  body, html{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+}
